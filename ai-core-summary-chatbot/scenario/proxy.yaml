@@ -35,7 +35,7 @@ spec:
         maxReplicas: 1    # how much to scale
         containers:
         - name: kserve-container
-          image: "docker.io/{{inputs.parameters.DOCKER_NAMESPACE}}/azure-openai-proxy"
+          image: "docker.io/{{inputs.parameters.DOCKER_NAMESPACE}}/summary-chatbot"
           ports:
             - containerPort: 8502    # customizable port
               protocol: TCP
