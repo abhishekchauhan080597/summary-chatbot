@@ -8,7 +8,7 @@ metadata:
     executables.ai.sap.com/description: "Summary Chatbot as Inference"
     executables.ai.sap.com/name: summary-chatbot-proxy" # Executable name should describe the workflow in the use case
   labels:
-    scenarios.ai.sap.com/id: "azure-openai-proxy"
+    scenarios.ai.sap.com/id: "summary-chatbot-proxy"
     ai.sap.com/version: "1.0"
     ext.ai.sap.com/islm_released_version: "true"
     ext.ai.sap.com/islm_executable_type: "inference"
