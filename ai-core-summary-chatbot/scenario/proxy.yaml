@@ -42,4 +42,4 @@ spec:
           command: ["/bin/sh", "-c"]
           args:
             - >
-              sreamlit run /app/src/main.py
+              streamlit run /app/src/main.py
